@@ -49,7 +49,7 @@ pipeline {
                      else \
                     echo OK; \
                  fi;);
-            docker container run --restart always --name kitchenstory-webservice -p 8081:8081 -d kitchenstory-webservice
+            docker container run --restart always --name kitchenstory-webservice -p 8085:8085 -d kitchenstory-webservice
             '''
             }
         }
